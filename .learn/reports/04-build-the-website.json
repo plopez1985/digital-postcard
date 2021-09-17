@@ -1,0 +1,21 @@
+{
+  "success": false,
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTests": 1,
+  "testResults": [
+    {
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mBuild your website using the build icon on the top of the instructions\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32mtrue\u001b[39m\n    Received: \u001b[31mfalse\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  6 |\u001b[39m     \u001b[36mconst\u001b[39m files \u001b[33m=\u001b[39m fs\u001b[33m.\u001b[39mreaddirSync(dirPath)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  7 |\u001b[39m     \u001b[36mconst\u001b[39m indexExists \u001b[33m=\u001b[39m fs\u001b[33m.\u001b[39mexistsSync(\u001b[32m`${dirPath}/index.html`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m  8 |\u001b[39m     expect(indexExists)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  9 |\u001b[39m })\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 10 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 11 |\u001b[39m test(\u001b[32m\"Add the following HTML to your index.html: Hello from <strong>Earth</strong>\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36mfunction\u001b[39m(){\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36m.learn/exercises/04-build-the-website/test.js\u001b[39m\u001b[0m\u001b[2m:8:25)\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "failed": [
+    {
+      "title": "Build your website using the build icon on the top of the instructions",
+      "status": "failed"
+    },
+    {
+      "title": "Add the following HTML to your index.html: Hello from <strong>Earth</strong>",
+      "status": "passed"
+    }
+  ]
+}
